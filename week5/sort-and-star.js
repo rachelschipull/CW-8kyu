@@ -10,6 +10,6 @@ function twoSort(s) {
     //sort by ASCII value 
    // select first index
      // split into characters and add *** inbetween each character
-     let arr = s.sort()
-     return arr[0].split('').join('***')
-   }
+    let arr = s.sort()
+    return arr[0].split('').join('***')
+}
