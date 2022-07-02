@@ -11,6 +11,8 @@
 // Example
 // Input: 1,3,5,6,7,8 Output: 1,2,3,4,5,6,7,8
 
+//You don't even need to know which numbers were missing, you just need to make a new array and push all the indices of numbers into that array. That "fixes" the problem.
+
 function pipeFix(numbers){
     let fix = [];
     for (let i = numbers[0]; i <= numbers[numbers.length - 1]; i++) {
